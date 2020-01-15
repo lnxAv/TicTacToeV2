@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:columnCount="2"
+        android:rowCount="2">
+        <TextView
+            android:text="Name : "
+            android:textColor="@color/colorAccent">
+        </TextView>
+        <EditText android:id="@+id/edit_p1Name"
+            android:width="100dp"
+            android:padding="5dp"
+            android:maxLength="8"
+            android:background="@color/colorPrimary"
+            android:text="Player 1"></EditText>
+        <TextView
+            android:text="Name : "
+            android:textColor="@color/colorAccent">
+        </TextView>
+        <EditText android:id="@+id/edit_p2Name"
+            android:width="100dp"
+            android:padding="5dp"
+            android:maxLength="8"
+            android:background="@color/colorPrimary"
+            android:text="Player 2"></EditText>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/b_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Continue"
+        android:background="@drawable/menu_button"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/b_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/menu_button"
+        android:gravity="center"
+        android:text="Exit"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

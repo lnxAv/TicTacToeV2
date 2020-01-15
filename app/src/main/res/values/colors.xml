@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFDD03</color>
+    <color name="colorPrimaryDark">#FBC403</color>
+    <color name="colorAccent">#FBFCD4</color>
+    <color name="textDefault">#000000</color>
+    <color name="caseSelection">#FFDD03</color>
+    <color name="menuButton">#16161D</color>
+    <color name="menuBackground">#000000</color>
+    <color name="gameCase">#000000</color>
+    <color name="pureWhite">#FFFFFF</color>
+</resources>
